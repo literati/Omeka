@@ -19,3 +19,21 @@
 [submodule "plugins/Coins"]
 	path = plugins/Coins
 	url = git://github.com/omeka/plugin-Coins
+[submodule "plugins/Annotations"]
+	path = plugins/Annotations
+	url = git://github.com/literati/Annotations.git
+[submodule "plugins/TeiDisplay"]
+	path = plugins/TeiDisplay
+	url = git://github.com/literati/TeiDisplay.git
+[submodule "plugins/TeiInteract"]
+	path = plugins/TeiInteract
+	url = git://github.com/literati/TEI_Interact.git
+[submodule "themes/omeka-foundation"]
+	path = themes/omeka-foundation
+	url = git://github.com/literati/omeka-foundation.git
+[submodule "themes/omeka-foundation-v2"]
+	path = themes/omeka-foundation-v2
+	url = git://github.com/literati/omeka-foundation-v2.git
+[submodule "plugins/ItemRelations"]
+	path = plugins/ItemRelations
+	url = git://github.com/omeka/plugin-ItemRelations.git
