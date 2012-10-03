@@ -4,16 +4,6 @@
 
     <h1><?php echo item('Dublin Core', 'Title'); ?></h1>
 
-        <!-- creating a placeholder for thing    -->
-    <div id="thing">
-    </div>
-    <?php if (function_exists('tei_display_installed')){ 
-        echo render_tei_files($item->id, $_GET['section']); 
-        debug("function_exists('tei_display_installed')");
-        }else{
-            debug("function_NOT_exists('tei_display_installed')");
-        } ?>
-
     <?php echo custom_show_item_metadata(); ?>
 
     <!-- The following returns all of the files associated with an item. -->
@@ -21,9 +11,7 @@
         <h3><?php echo __('Files'); ?></h3>
         <div class="element-text"><?php echo display_files_for_item(); ?></div>
     </div>
-    
 
-    
     <!-- If the item belongs to a collection, the following creates a link to that collection. -->
     <?php if (item_belongs_to_collection()): ?>
     <div id="collection" class="element">
@@ -45,7 +33,7 @@
         <h3><?php echo __('Citation'); ?></h3>
         <div class="element-text"><?php echo item_citation(); ?></div>
     </div>
-    
+
     <?php echo plugin_append_to_items_show(); ?>
 
     <ul class="item-pagination navigation">
