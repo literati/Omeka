@@ -36,4 +36,4 @@
 	url = git@github.com:literati/omeka-foundation-v2.git
 [submodule "plugins/ItemRelations"]
 	path = plugins/ItemRelations
-	url = git://github.com/omeka/plugin-ItemRelations.git
+	url = git@github.com:literati/plugin-ItemRelations.git
