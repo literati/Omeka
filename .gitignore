@@ -20,6 +20,7 @@
 /archive/square_thumbnails/*
 /archive/theme_uploads/*
 /archive/thumbnails/*
+/archive
 
 # For macs
 .DS_Store
