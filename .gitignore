@@ -31,5 +31,8 @@
 # For Eclipse
 .buildpath
 .project
+
+# For Composer
+vendor
 .settings/
 tags

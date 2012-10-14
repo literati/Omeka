@@ -1,0 +1,36 @@
+{
+    "repositories": [
+            {
+                "type": "vcs",
+                "url": "git@github.com:literati/literati.git"
+            },
+            {
+                "type": "vcs",
+                "url": "git@github.com:literati/Annotations.git"
+            },
+            {
+                "type": "vcs",
+                "url": "git@github.com:literati/TeiDisplay.git"
+            },
+            {
+                "type": "vcs",
+                "url": "git@github.com:literati/TEI_Interact.git"
+            },
+            {
+                "type": "vcs",
+                "url": "git@github.com:literati/omeka-foundation.git"
+            },
+            {
+                "type": "vcs",
+                "url": "git@github.com:literati/plugin-ItemRelations.git"
+            }
+        ],
+    "require" :{ 
+        "literati/installer":"dev-master",
+        "literati/Annotations":"dev-literati/production",
+        "literati/TeiInteract":"dev-literati/production",
+        "literati/TeiDisplay":"dev-literati/production",
+        "literati/omeka-foundation":"dev-literati/production",
+        "literati/plugin-ItemRelations":"dev-literati/production"
+        }
+}

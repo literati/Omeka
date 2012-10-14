@@ -1,0 +1,157 @@
+{
+    "hash": "8bcba3bb360121d74b9147761bb56232",
+    "packages": [
+        {
+            "name": "literati/Annotations",
+            "version": "dev-literati/production",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:literati/Annotations.git",
+                "reference": "70ae9aa0a92f1858fd0c72be026449f9a5ed066c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/literati/Annotations/zipball/70ae9aa0a92f1858fd0c72be026449f9a5ed066c",
+                "reference": "70ae9aa0a92f1858fd0c72be026449f9a5ed066c",
+                "shasum": ""
+            },
+            "time": "1350229506",
+            "type": "omeka-plugin",
+            "installation-source": "source",
+            "support": {
+                "source": "https://github.com/literati/Annotations/tree/literati/production",
+                "issues": "https://github.com/literati/Annotations/issues"
+            }
+        },
+        {
+            "name": "literati/TeiDisplay",
+            "version": "dev-literati/production",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:literati/TeiDisplay.git",
+                "reference": "5d5c8084bfdeca8e01d6222fe2e121857e9c88bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/literati/TeiDisplay/zipball/5d5c8084bfdeca8e01d6222fe2e121857e9c88bc",
+                "reference": "5d5c8084bfdeca8e01d6222fe2e121857e9c88bc",
+                "shasum": ""
+            },
+            "time": "1350229634",
+            "type": "omeka-plugin",
+            "installation-source": "source",
+            "support": {
+                "source": "https://github.com/literati/TeiDisplay/tree/literati/production",
+                "issues": "https://github.com/literati/TeiDisplay/issues"
+            }
+        },
+        {
+            "name": "literati/TeiInteract",
+            "version": "dev-literati/production",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:literati/TEI_Interact.git",
+                "reference": "d2092e11756e4893587faa2955f802f5dbbbfa23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/literati/TEI_Interact/zipball/d2092e11756e4893587faa2955f802f5dbbbfa23",
+                "reference": "d2092e11756e4893587faa2955f802f5dbbbfa23",
+                "shasum": ""
+            },
+            "time": "1350228420",
+            "type": "omeka-plugin",
+            "installation-source": "source",
+            "support": {
+                "source": "https://github.com/literati/TEI_Interact/tree/literati/production",
+                "issues": "https://github.com/literati/TEI_Interact/issues"
+            }
+        },
+        {
+            "name": "literati/installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:literati/literati.git",
+                "reference": "920d9dd18cb48eb9ab200202dae33ebcc583c16a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/literati/literati/zipball/920d9dd18cb48eb9ab200202dae33ebcc583c16a",
+                "reference": "920d9dd18cb48eb9ab200202dae33ebcc583c16a",
+                "shasum": ""
+            },
+            "time": "1350233763",
+            "type": "composer-installer",
+            "extra": {
+                "class": "literati\\Installer"
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "literati": "src/"
+                }
+            },
+            "support": {
+                "source": "https://github.com/literati/literati/tree/master",
+                "issues": "https://github.com/literati/literati/issues"
+            }
+        },
+        {
+            "name": "literati/omeka-foundation",
+            "version": "dev-literati/production",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:literati/omeka-foundation.git",
+                "reference": "28a1542e2d4a571f8561d9b4080c315fccb5016d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/literati/omeka-foundation/zipball/28a1542e2d4a571f8561d9b4080c315fccb5016d",
+                "reference": "28a1542e2d4a571f8561d9b4080c315fccb5016d",
+                "shasum": ""
+            },
+            "time": "1350229777",
+            "type": "omeka-theme",
+            "installation-source": "source",
+            "support": {
+                "source": "https://github.com/literati/omeka-foundation/tree/literati/production"
+            }
+        },
+        {
+            "name": "literati/plugin-ItemRelations",
+            "version": "dev-literati/production",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:literati/plugin-ItemRelations.git",
+                "reference": "4f4888a5854f89206907866eee7dbe86d42c338d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/literati/plugin-ItemRelations/zipball/4f4888a5854f89206907866eee7dbe86d42c338d",
+                "reference": "4f4888a5854f89206907866eee7dbe86d42c338d",
+                "shasum": ""
+            },
+            "time": "1350229582",
+            "type": "omeka-plugin",
+            "installation-source": "source",
+            "support": {
+                "source": "https://github.com/literati/plugin-ItemRelations/tree/literati/production",
+                "issues": "https://github.com/literati/plugin-ItemRelations/issues"
+            }
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "literati/installer": 20,
+        "literati/annotations": 20,
+        "literati/teiinteract": 20,
+        "literati/teidisplay": 20,
+        "literati/omeka-foundation": 20,
+        "literati/plugin-itemrelations": 20
+    }
+}
