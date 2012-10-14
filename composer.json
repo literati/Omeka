@@ -27,10 +27,10 @@
         ],
     "require" :{ 
         "literati/installer":"dev-master",
-        "literati/Annotations":"dev-literati/production",
-        "literati/TeiInteract":"dev-literati/production",
-        "literati/TeiDisplay":"dev-literati/production",
-        "literati/omeka-foundation":"dev-literati/production",
-        "literati/plugin-ItemRelations":"dev-literati/production"
+        "literati/Annotations":"dev-master",
+        "literati/TeiInteract":"dev-literati/stable",
+        "literati/TeiDisplay":"dev-literati/stable",
+        "literati/omeka-foundation":"dev-literati/stable",
+        "literati/plugin-ItemRelations":"dev-literati/stable"
         }
 }
