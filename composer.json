@@ -28,7 +28,7 @@
     "require" :{ 
         "literati/installer":"dev-master",
         "literati/Annotations":"dev-master",
-        "literati/TeiInteract":"dev-literati/stable",
+        "literati/TeiInteract":"dev-master",
         "literati/TeiDisplay":"dev-literati/stable",
         "literati/omeka-foundation":"dev-literati/stable",
         "literati/plugin-ItemRelations":"dev-literati/stable"
