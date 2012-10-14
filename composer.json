@@ -2,6 +2,10 @@
     "repositories": [
             {
                 "type": "vcs",
+                "url": "git@github.com:literati/literati.git"
+            },
+            {
+                "type": "vcs",
                 "url": "git@github.com:literati/Annotations.git"
             },
             {
@@ -22,6 +26,7 @@
             }
         ],
     "require" :{ 
+        "literati/installer":"dev-master",
         "literati/Annotations":"dev-literati/production",
         "literati/TeiInteract":"dev-literati/production",
         "literati/TeiDisplay":"dev-literati/production",
