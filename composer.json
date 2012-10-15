@@ -50,17 +50,17 @@
             }
         ],
     "require" :{ 
-        "literati/installer":"dev-literati/production",
+        "literati/installer":"dev-master",
         "literati/Annotations":"dev-literati/production",
         "literati/TeiInteract":"dev-literati/production",
         "literati/TeiDisplay":"dev-literati/production",
         "literati/omeka-foundation":"dev-literati/production",
-        "literati/plugin-ItemRelations":"dev-literati/production"
-        "literati/plugin-CollectionTree":"dev-literati/production"
+        "literati/plugin-ItemRelations":"dev-literati/production",
+        "literati/plugin-CollectionTree":"dev-literati/production",
         "literati/plugin-Geolocation":"dev-literati/production",
         "literati/Neatline":"dev-literati/production",
         "literati/NeatlineFeatures":"dev-literati/production",
         "literati/NeatlineMaps":"dev-literati/production",
-        "literati/NeatlineTime":"dev-literati/production",
+        "literati/NeatlineTime":"dev-literati/production"
         }
 }

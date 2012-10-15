@@ -1,5 +1,5 @@
 {
-    "hash": "8bcba3bb360121d74b9147761bb56232",
+    "hash": "507d3d5cc95bc5def91057ecec277f3c",
     "packages": [
         {
             "name": "literati/Annotations",
@@ -7,20 +7,104 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:literati/Annotations.git",
-                "reference": "70ae9aa0a92f1858fd0c72be026449f9a5ed066c"
+                "reference": "1335f3b697f6a1bdd157e17a649b3c06b3afaa4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/literati/Annotations/zipball/70ae9aa0a92f1858fd0c72be026449f9a5ed066c",
-                "reference": "70ae9aa0a92f1858fd0c72be026449f9a5ed066c",
+                "url": "https://github.com/literati/Annotations/zipball/1335f3b697f6a1bdd157e17a649b3c06b3afaa4f",
+                "reference": "1335f3b697f6a1bdd157e17a649b3c06b3afaa4f",
                 "shasum": ""
             },
-            "time": "1350229506",
+            "time": "1350267140",
             "type": "omeka-plugin",
             "installation-source": "source",
             "support": {
                 "source": "https://github.com/literati/Annotations/tree/literati/production",
                 "issues": "https://github.com/literati/Annotations/issues"
+            }
+        },
+        {
+            "name": "literati/Neatline",
+            "version": "dev-literati/production",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:literati/Neatline.git",
+                "reference": "4051234480302fa7a6ce6062d3e8dce1bdfbc612"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/literati/Neatline/zipball/4051234480302fa7a6ce6062d3e8dce1bdfbc612",
+                "reference": "4051234480302fa7a6ce6062d3e8dce1bdfbc612",
+                "shasum": ""
+            },
+            "time": "1350265466",
+            "type": "omeka-plugin",
+            "installation-source": "source",
+            "support": {
+                "source": "https://github.com/literati/Neatline/tree/literati/production"
+            }
+        },
+        {
+            "name": "literati/NeatlineFeatures",
+            "version": "dev-literati/production",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:literati/NeatlineFeatures.git",
+                "reference": "e721d1344e3a26ba21b57880f9eab7f4d7ffbfe0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/literati/NeatlineFeatures/zipball/e721d1344e3a26ba21b57880f9eab7f4d7ffbfe0",
+                "reference": "e721d1344e3a26ba21b57880f9eab7f4d7ffbfe0",
+                "shasum": ""
+            },
+            "time": "1350266390",
+            "type": "omeka-plugin",
+            "installation-source": "source",
+            "support": {
+                "source": "https://github.com/literati/NeatlineFeatures/tree/literati/production"
+            }
+        },
+        {
+            "name": "literati/NeatlineMaps",
+            "version": "dev-literati/production",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:literati/NeatlineMaps.git",
+                "reference": "32490391d0467036ba43060cd56983d88ddb88ed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/literati/NeatlineMaps/zipball/32490391d0467036ba43060cd56983d88ddb88ed",
+                "reference": "32490391d0467036ba43060cd56983d88ddb88ed",
+                "shasum": ""
+            },
+            "time": "1350266306",
+            "type": "omeka-plugin",
+            "installation-source": "source",
+            "support": {
+                "source": "https://github.com/literati/NeatlineMaps/tree/literati/production"
+            }
+        },
+        {
+            "name": "literati/NeatlineTime",
+            "version": "dev-literati/production",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:literati/NeatlineTime.git",
+                "reference": "a83687d332b54a45614fa9380a1c209bb67cea29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/literati/NeatlineTime/zipball/a83687d332b54a45614fa9380a1c209bb67cea29",
+                "reference": "a83687d332b54a45614fa9380a1c209bb67cea29",
+                "shasum": ""
+            },
+            "time": "1350266550",
+            "type": "omeka-plugin",
+            "installation-source": "source",
+            "support": {
+                "source": "https://github.com/literati/NeatlineTime/tree/literati/production"
             }
         },
         {
@@ -73,15 +157,15 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:literati/literati.git",
-                "reference": "920d9dd18cb48eb9ab200202dae33ebcc583c16a"
+                "reference": "cda42cdfdde0232f7a2c49cd2b9798240597e281"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/literati/literati/zipball/920d9dd18cb48eb9ab200202dae33ebcc583c16a",
-                "reference": "920d9dd18cb48eb9ab200202dae33ebcc583c16a",
+                "url": "https://github.com/literati/literati/zipball/cda42cdfdde0232f7a2c49cd2b9798240597e281",
+                "reference": "cda42cdfdde0232f7a2c49cd2b9798240597e281",
                 "shasum": ""
             },
-            "time": "1350233763",
+            "time": "1350266771",
             "type": "composer-installer",
             "extra": {
                 "class": "literati\\Installer"
@@ -119,6 +203,48 @@
             }
         },
         {
+            "name": "literati/plugin-CollectionTree",
+            "version": "dev-literati/production",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:literati/plugin-CollectionTree.git",
+                "reference": "63a24214d84e4e88464740b837de51da45180f6d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/literati/plugin-CollectionTree/zipball/63a24214d84e4e88464740b837de51da45180f6d",
+                "reference": "63a24214d84e4e88464740b837de51da45180f6d",
+                "shasum": ""
+            },
+            "time": "1350264444",
+            "type": "omeka-plugin",
+            "installation-source": "source",
+            "support": {
+                "source": "https://github.com/literati/plugin-CollectionTree/tree/master"
+            }
+        },
+        {
+            "name": "literati/plugin-Geolocation",
+            "version": "dev-literati/production",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:literati/plugin-Geolocation.git",
+                "reference": "bce4f884d2e5c09502c043f3ccd208e206ab0928"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/literati/plugin-Geolocation/zipball/bce4f884d2e5c09502c043f3ccd208e206ab0928",
+                "reference": "bce4f884d2e5c09502c043f3ccd208e206ab0928",
+                "shasum": ""
+            },
+            "time": "1350264987",
+            "type": "omeka-plugin",
+            "installation-source": "source",
+            "support": {
+                "source": "https://github.com/literati/plugin-Geolocation/tree/literati/production"
+            }
+        },
+        {
             "name": "literati/plugin-ItemRelations",
             "version": "dev-literati/production",
             "source": {
@@ -152,6 +278,12 @@
         "literati/teiinteract": 20,
         "literati/teidisplay": 20,
         "literati/omeka-foundation": 20,
-        "literati/plugin-itemrelations": 20
+        "literati/plugin-itemrelations": 20,
+        "literati/plugin-collectiontree": 20,
+        "literati/plugin-geolocation": 20,
+        "literati/neatline": 20,
+        "literati/neatlinefeatures": 20,
+        "literati/neatlinemaps": 20,
+        "literati/neatlinetime": 20
     }
 }
