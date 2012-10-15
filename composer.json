@@ -22,11 +22,31 @@
             },
             {
                 "type": "vcs",
-                "url": "git@github.com:literati/plugin-ItemRelations.git"
-            }
+                "url": "git@github.com:literati/plugin-Geolocation.git"
+            },
             {
                 "type": "vcs",
-                "url": "git@github.com:literati/plugin-ColletionTree.git"
+                "url": "git@github.com:literati/Neatline.git"
+            },
+            {
+                "type": "vcs",
+                "url": "git@github.com:literati/NeatlineFeatures.git"
+            },
+            {
+                "type": "vcs",
+                "url": "git@github.com:literati/NeatlineMaps.git"
+            },
+            {
+                "type": "vcs",
+                "url": "git@github.com:literati/NeatlineTime.git"
+            },
+            {
+                "type": "vcs",
+                "url": "git@github.com:literati/plugin-ItemRelations.git"
+            },
+            {
+                "type": "vcs",
+                "url": "git@github.com:literati/plugin-CollectionTree.git"
             }
         ],
     "require" :{ 
@@ -35,7 +55,12 @@
         "literati/TeiInteract":"dev-master",
         "literati/TeiDisplay":"dev-literati/stable",
         "literati/omeka-foundation":"dev-literati/stable",
-        "literati/plugin-ItemRelations":"dev-literati/stable"
+        "literati/plugin-ItemRelations":"dev-literati/stable",
+        "literati/plugin-Geolocation":"dev-literati/stable",
+        "literati/Neatline":"dev-literati/stable",
+        "literati/NeatlineFeatures":"dev-literati/stable",
+        "literati/NeatlineMaps":"dev-literati/stable",
+        "literati/NeatlineTime":"dev-literati/stable",
         "literati/plugin-CollectionTree":"dev-literati/stable"
         }
 }
