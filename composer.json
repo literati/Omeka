@@ -22,8 +22,28 @@
             },
             {
                 "type": "vcs",
+                "url": "git@github.com:literati/plugin-Geolocation.git"
+            },
+            {
+                "type": "vcs",
+                "url": "git@github.com:literati/Neatline.git"
+            },
+            {
+                "type": "vcs",
+                "url": "git@github.com:literati/NeatlineFeatures.git"
+            },
+            {
+                "type": "vcs",
+                "url": "git@github.com:literati/NeatlineMaps.git"
+            },
+            {
+                "type": "vcs",
+                "url": "git@github.com:literati/NeatlineTime.git"
+            },
+            {
+                "type": "vcs",
                 "url": "git@github.com:literati/plugin-ItemRelations.git"
-            }
+            },
             {
                 "type": "vcs",
                 "url": "git@github.com:literati/plugin-CollectionTree.git"
@@ -37,5 +57,10 @@
         "literati/omeka-foundation":"dev-literati/production",
         "literati/plugin-ItemRelations":"dev-literati/production"
         "literati/plugin-CollectionTree":"dev-literati/production"
+        "literati/plugin-Geolocation":"dev-literati/production",
+        "literati/Neatline":"dev-literati/production",
+        "literati/NeatlineFeatures":"dev-literati/production",
+        "literati/NeatlineMaps":"dev-literati/production",
+        "literati/NeatlineTime":"dev-literati/production",
         }
 }
