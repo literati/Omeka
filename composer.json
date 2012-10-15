@@ -24,13 +24,18 @@
                 "type": "vcs",
                 "url": "git@github.com:literati/plugin-ItemRelations.git"
             }
+            {
+                "type": "vcs",
+                "url": "git@github.com:literati/plugin-ColletionTree.git"
+            }
         ],
     "require" :{ 
         "literati/installer":"dev-master",
-        "literati/Annotations":"dev-literati/production",
-        "literati/TeiInteract":"dev-literati/production",
-        "literati/TeiDisplay":"dev-literati/production",
-        "literati/omeka-foundation":"dev-literati/production",
-        "literati/plugin-ItemRelations":"dev-literati/production"
+        "literati/Annotations":"dev-master",
+        "literati/TeiInteract":"dev-master",
+        "literati/TeiDisplay":"dev-literati/stable",
+        "literati/omeka-foundation":"dev-literati/stable",
+        "literati/plugin-ItemRelations":"dev-literati/stable"
+        "literati/plugin-CollectionTree":"dev-literati/stable"
         }
 }
