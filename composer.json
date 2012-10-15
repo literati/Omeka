@@ -24,6 +24,10 @@
                 "type": "vcs",
                 "url": "git@github.com:literati/plugin-ItemRelations.git"
             }
+            {
+                "type": "vcs",
+                "url": "git@github.com:literati/plugin-ColletionTree.git"
+            }
         ],
     "require" :{ 
         "literati/installer":"dev-master",
@@ -32,5 +36,6 @@
         "literati/TeiDisplay":"dev-literati/stable",
         "literati/omeka-foundation":"dev-literati/stable",
         "literati/plugin-ItemRelations":"dev-literati/stable"
+        "literati/plugin-CollectionTree":"dev-literati/stable"
         }
 }
