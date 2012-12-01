@@ -32,8 +32,12 @@
 .buildpath
 .project
 
+# For NetBeans
+nbproject
+
 # For Composer
 vendor
 .settings/
 tags
 /composer.lock
+/nbproject/private/
